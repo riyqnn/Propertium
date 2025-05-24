@@ -116,7 +116,7 @@ export default function PropertiumLanding() {
                 Propertium is a WebGIS-based NFT real estate platform that simplifies digital property transactions through interactive maps and blockchain transparency.
               </div>
               <div className="text-white text-xs leading-relaxed drop-shadow-md">
-                Our real estate agents are licensed professionals who organize real estate transactions and act as representatives in negotiations on the acquisition of real estate.
+                Our real estate agents are licensed professionals who organize real estate transactions and act as representatives in negotiations on the acquisition of real estates.
               </div>
               <div className="flex flex-col space-y-2 relative">
                 {principal ? (
