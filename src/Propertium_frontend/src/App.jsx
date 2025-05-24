@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from "./home/LandingPage";
-import Navbar from './component/Navbar';
+import Maps from "./pages/Maps"
+
 
 function App() {
   return (
    <Router>
-  {/* <Navbar /> */}
     <Routes>
       <Route path="/" element={<LandingPage />} />
+      <Route path="/maps" element={<Maps />} />
     </Routes>
   </Router>
 
